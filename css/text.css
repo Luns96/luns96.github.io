@@ -1,0 +1,39 @@
+header.masthead-1 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../imagen/Portada.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../imagen/Portada.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead-1 h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead-1 {
+    height: 50vh;
+    min-height: 20rem;
+    padding-top: 52px;
+    padding-bottom: 0;
+  }
+  header.masthead-1 p {
+    font-size: 1.35rem;
+  }
+  header.masthead-1 h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead-1 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+.ColorMasthead-1{
+  color: #cccccc;
+}
